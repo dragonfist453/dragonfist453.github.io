@@ -1,9 +1,5 @@
 score = document.getElementById("cur_score");
-<<<<<<< HEAD
 runner_images = ["./images/runner_right.png", "./images/runner_left.png"]
-=======
-runner_images = ["runner_right.png", "runner_left.png"]
->>>>>>> f72dc756a03f6e5cf1c2faf93d5e7e9f841e43a2
 canvas = document.getElementById("game")
 game = canvas.getContext("2d")
 count = 0
