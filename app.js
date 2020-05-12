@@ -16,7 +16,7 @@ function setup() {
 
 class runner {
     runner() {
-        this.src = "/static/images/runner.png"
+        this.src = "/images/runner.png"
         this.width = "12px"
         this.height = "20px"
     }
