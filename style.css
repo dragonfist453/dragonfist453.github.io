@@ -1,11 +1,51 @@
 body {
     background-image: url('/images/house_island.jpg');
+    background-repeat: no-repeat;
 }
 .name {
-    padding: 20%;
-    text-align: center;
+    position: absolute;
+    bottom: 60%;
+    right: 35%;
     font-size: 40px;
     font-family: 'Press Start 2P', cursive;
     color: #232722f2; 
     opacity: 0;
+}
+.octocat {
+    position: absolute;
+    bottom: 20%;
+    left: 10%;
+    right: 80%;
+    top: 72%;
+    width: 150px;
+    height: 124px;
+    transition: 0.2s;
+}
+.octocat:hover {
+    bottom: 20%;
+    left: 9.5%;
+    right: 81%;
+    top: 71%;
+    width: 175px;
+    height: 140px;
+    transition: 0.2s;
+}
+.linkedin {
+    position: absolute;
+    bottom: 15%;
+    right: 10%;
+    left: 80%;
+    top: 74%;
+    width: 90px;
+    height: 90px;
+    transition: 0.2s;
+}
+.linkedin:hover {
+    bottom: 14%;
+    right: 10.25%;
+    left: 79.75%;
+    top: 73.5%;
+    width: 100px;
+    height: 100px;
+    transition: 0.2s;
 }
