@@ -29,6 +29,7 @@ body {
     width: 175px;
     height: 140px;
     transition: 0.2s;
+    filter: drop-shadow(0 0 0.75rem #AAAAAA);
 }
 .linkedin {
     position: absolute;
@@ -48,4 +49,5 @@ body {
     width: 100px;
     height: 100px;
     transition: 0.2s;
+    filter: drop-shadow(0 0 0.75rem #AAAAAA);
 }
