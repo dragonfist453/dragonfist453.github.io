@@ -13,7 +13,18 @@ body {
     font-family: 'Press Start 2P', cursive;
     color: #232722f2; 
     opacity: 0;
+    animation: fadeInAnimation ease 3s; 
+    animation-iteration-count: 1; 
+    animation-fill-mode: forwards; 
 }
+@keyframes fadeInAnimation { 
+    0% { 
+        opacity: 0; 
+    } 
+    100% { 
+        opacity: 1; 
+    } 
+} 
 .octocat {
     position: absolute;
     bottom: 20%;
