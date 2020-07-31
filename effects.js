@@ -5,5 +5,5 @@ window.onload = function() {
             document.getElementById("name").style.opacity = i/100;
             i = i + 1;
         }
-    },10);
+    },20);
 }
