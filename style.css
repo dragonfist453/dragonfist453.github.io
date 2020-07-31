@@ -9,7 +9,7 @@ body {
     position: absolute;
     bottom: 60%;
     right: 35%;
-    font-size: 40px;
+    font-size: 2vw;
     font-family: 'Press Start 2P', cursive;
     color: #232722f2; 
     opacity: 0;
@@ -20,8 +20,8 @@ body {
     left: 10%;
     right: 80%;
     top: 72%;
-    width: 150px;
-    height: 124px;
+    width: 8vw;
+    height: 6.5vw;
     transition: 0.2s;
 }
 .octocat:hover {
@@ -29,8 +29,8 @@ body {
     left: 9.5%;
     right: 81%;
     top: 71%;
-    width: 175px;
-    height: 140px;
+    width: 9vw;
+    height: 7.5vw;
     transition: 0.2s;
     filter: drop-shadow(0 0 0.75rem #AAAAAA);
 }
@@ -40,8 +40,8 @@ body {
     right: 10%;
     left: 80%;
     top: 74%;
-    width: 90px;
-    height: 90px;
+    width: 4.5vw;
+    height: 4.5vw;
     transition: 0.2s;
 }
 .linkedin:hover {
@@ -49,8 +49,8 @@ body {
     right: 10.25%;
     left: 79.75%;
     top: 73.5%;
-    width: 100px;
-    height: 100px;
+    width: 5vw;
+    height: 5vw;
     transition: 0.2s;
     filter: drop-shadow(0 0 0.75rem #AAAAAA);
 }
