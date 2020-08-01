@@ -5,6 +5,13 @@ body {
     -o-background-size: cover;
     background-size: cover;
 }
+@font-face {
+    font-family: 'Press Start 2P';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url('/fonts/PressStart2P-Regular.ttf');
+}
 .name {
     position: absolute;
     bottom: 60%;
