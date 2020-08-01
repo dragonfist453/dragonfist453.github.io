@@ -1,3 +1,3 @@
 # dragonfist453.github.io
 
-Doesn't work yet. Please wait
+This has the files of a purely static site made to display information about me
