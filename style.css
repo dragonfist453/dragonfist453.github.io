@@ -72,3 +72,61 @@ body {
     transition: 0.2s;
     filter: drop-shadow(0 0 0.75rem #AAAAAA);
 }
+img {
+    -webkit-box-reflect: below 10px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(20%, transparent) , to(rgba(250, 250, 250, 0.1)));
+}
+
+@media only screen and (max-width: 500px)  {
+    .name {
+        position: absolute;
+        bottom: 60%;
+        right: 25%;
+        font-size: 4vw;
+        font-family: 'Press Start 2P', cursive;
+        color: #232722f2; 
+        opacity: 0;
+        animation: fadeInAnimation ease 3s; 
+        animation-iteration-count: 1; 
+        animation-fill-mode: forwards; 
+    }
+    @keyframes fadeInAnimation { 
+        0% { 
+            opacity: 0; 
+        } 
+        100% { 
+            opacity: 1; 
+        } 
+    } 
+    .octocat {
+        position: absolute;
+        top: 75%;
+        left: 5%;
+        width: 24vw;
+        height: 20vw;
+        transition: 0.2s;
+    }
+    .octocat:hover {
+        top: 75%;
+        left: 4.5%;
+        width: 25vw;
+        height: 21vw;
+        transition: 0.2s;
+        filter: drop-shadow(0 0 0.75rem #AAAAAA);
+    }
+    .linkedin {
+        position: absolute;
+        top: 77.5%;
+        left: 75%;
+        width: 17vw;
+        height: 14.5vw;
+        transition: 0.2s;
+    }
+    .linkedin:hover {
+        top: 77.5%;
+        left: 74.75%;
+        width: 18vw;
+        height: 16vw;
+        transition: 0.2s;
+        filter: drop-shadow(0 0 0.75rem #AAAAAA);
+    }    
+}
